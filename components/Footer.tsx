@@ -124,11 +124,11 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:Kodgglobalconsult@gmail.com"
+                  href="mailto:customercare@kodgglobal.com"
                   className="flex items-start gap-2.5 text-gray-400 hover:text-gold text-sm transition-colors break-all"
                 >
                   <Mail className="w-4 h-4 text-gold mt-0.5 shrink-0" />
-                  Kodgglobalconsult@gmail.com
+                  customercare@kodgglobal.com
                 </a>
               </li>
               <li>

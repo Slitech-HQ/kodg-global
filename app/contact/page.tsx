@@ -14,9 +14,9 @@ const contactDetails = [
   {
     icon: Mail,
     title: "Email Address",
-    value: "Kodgglobalconsult@gmail.com",
+    value: "customercare@kodgglobal.com",
     sub: "We reply within 24 hours",
-    href: "mailto:Kodgglobalconsult@gmail.com",
+    href: "mailto:customercare@kodgglobal.com",
   },
   {
     icon: Phone,
@@ -148,7 +148,7 @@ export default function ContactPage() {
               or virtual consultation.
             </p>
             <a
-              href="mailto:Kodgglobalconsult@gmail.com"
+              href="mailto:customercare@kodgglobal.com"
               className="inline-flex items-center gap-2 bg-gold text-royal font-bold px-7 py-3 rounded-full hover:bg-gold-light transition-colors shadow-md"
             >
               <Mail className="w-4 h-4" />

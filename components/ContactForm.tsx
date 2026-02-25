@@ -30,7 +30,7 @@ export default function ContactForm() {
   const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     const body = `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\n\nMessage:\n${form.message}`;
-    const mailtoLink = `mailto:Kodgglobalconsult@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:customercare@kodgglobal.com?subject=${encodeURIComponent(
       form.subject || "Inquiry from Website"
     )}&body=${encodeURIComponent(body)}`;
     window.open(mailtoLink, "_blank");
